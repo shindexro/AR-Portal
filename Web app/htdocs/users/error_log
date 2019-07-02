@@ -1,0 +1,10 @@
+[02-Jan-2019 12:42:36 UTC] PHP Notice:  Undefined index: json in /home/chegde/public_html/projects/Team_Project/users/newWorld.php on line 2
+[02-Jan-2019 12:42:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function append() on array in /home/chegde/public_html/projects/Team_Project/users/newWorld.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/chegde/public_html/projects/Team_Project/users/newWorld.php on line 6
+[02-Jan-2019 12:43:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function append() on array in /home/chegde/public_html/projects/Team_Project/users/newWorld.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/chegde/public_html/projects/Team_Project/users/newWorld.php on line 4
+[02-Jan-2019 13:01:31 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/chegde/public_html/projects/Team_Project/users/deleteWorld.php on line 4

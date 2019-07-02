@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 418750363
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 97cc6cdde3509a36b80f330f0ca991bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dd7a7454243e10e3f9618de160b13c6e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Theater/ftz7jube/fbx/fox.FBX
+- Assets/Theater/ftz7jube/fbx/SmartTV.fbx
+- Assets/Theater/ftz7jube/fbx/PC Monitor_dist.fbx
+- Assets/Theater/ftz7jube/fbx/Folding_Bed.FBX
+- Assets/Theater/ftz7jube/fbx/Retro_TV.FBX
+- Assets/Theater/ftz7jube/fbx/flower_decor.fbx
+- Assets/Theater/l1yq9uvu/fbx/pot.FBX
+- Assets/Theater/ftz7jube/fbx/Book_by_Peter_Iliev_fbx.FBX
+- Assets/Theater/ftz7jube/fbx/Touch bin_fbx.FBX
+Dependencies: []

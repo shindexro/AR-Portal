@@ -1,0 +1,295 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+.NavBar{
+  background-color: black;
+  box-shadow: 0 5px 10px 1px #777777;
+  width: 100%;
+  height: 75px;
+}
+.NavBarBlock{
+  display: inline-block;
+  vertical-align:top;
+  width: 50%;
+}
+.navButton{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-left: 10px;
+}
+.navButton:hover{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #dddddd;
+}
+.navItem, .navButton{
+  margin: 12.5px;
+}
+.hidden_label{
+  display: none;
+}
+
+.altButton{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+}
+
+.altPanelButton{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3 3);
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  width: calc(90% - 10px);
+}
+
+.altWorldButton{
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+}
+
+.altFormButton{
+  width:100%;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+}
+
+.altENWFormButton{
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  /* -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63); */
+  background-color: rgba(0,0,0,0);
+}.EWFormObject{
+  width: 100%;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-top: 10px;
+}
+.EWTextArea{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.altForm{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.altButton:hover, .altWorldButton:hover, .altFormButton:hover, .altENWFormButton:hover{
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+  background-color: rgba(0,0,0,0.1);
+}
+
+.altPanelButton:hover{
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
+  background-color: rgba(125,125,125,0.1);
+}
+
+.worldTextPanel{
+  padding: 0;
+  margin: 0;
+  width: calc(80% - 8px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.worldButtonPanel{
+  padding: 0;
+  margin: 0;
+  width: calc(20% - 5px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.WorldPanel{
+  width:95%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.63);
+}
+
+.WorldPanel, .altButton{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.worldNamePanel{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  width: calc(100% - 5px);
+  padding: 2.5px;
+  display: inline-block;
+}
+.worldDescPanel{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  width: calc(100% - 5px);
+  padding: 2.5px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  word-wrap: break-word;
+  display: inline-block;
+}
+#panelBack{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+.worldEditPanel{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: white;
+  opacity: 2;
+  z-index: 101;
+  padding: 15px;
+  padding-top: 5px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+}
+#editorCanvas{
+  margin-top: 10px;
+  margin-left: 10px;
+  width:70%;
+  height: 80%;
+  display: inline-block;
+}
+#editorControls{
+  width: calc(30% - 30px);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+#panelSelector{
+  max-width: 100%;
+}
+.panelButton{
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom:2px solid #000000;
+}
+.selectedButton{
+  border-bottom:2px solid #117979;
+}
+.controlPanel{
+  height: calc(100% - 53px);
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: scroll;
+}
+.dataLabel{
+  display: inline-block;
+  width: calc(40% - 10px);
+  margin: 0;
+  margin-top: 2%;
+  margin-left: 10px;
+  padding: 0;
+}
+.dataFeild{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.loginContainer{
+  width:70%;
+  margin-left: 15%;
+  margin-top:10%;
+}
+.LoginField{
+  width: 100%;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+.LoginButton{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  width: 100%;
+}
+.LoginButton:hover{
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(100,100,100,0.33);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(100,100,100,0.33);
+  box-shadow: 0px 0px 10px 5px rgba(100,100,100,0.33);
+  background-color: rgba(200,200,200,0.1);
+}
