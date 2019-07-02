@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 58d420c9d2c4ac042b9b98f266967e7e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: as_pen
+    100004: as_pencil
+    100006: as_sketchbook
+    400000: //RootNode
+    400002: as_pen
+    400004: as_pencil
+    400006: as_sketchbook
+    2100000: as_sketchbook_cover
+    2100002: as_sketchbook_pages
+    2100004: as_sketchbook_elastic_band
+    2100006: as_sketchbook_cover_logo
+    2100008: as_pencil_wood_white
+    2100010: as_pencil_graphite
+    2100012: as_pencil_wood
+    2100014: as_pencil_wood_logo
+    2100016: as_pen_plastic_white
+    2100018: as_pen_plastic_logo
+    2300000: as_pen
+    2300002: as_pencil
+    2300004: as_sketchbook
+    3300000: as_pen
+    3300002: as_pencil
+    3300004: as_sketchbook
+    4300000: as_sketchbook
+    4300002: as_pencil
+    4300004: as_pen
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pen_plastic_logo
+    second: {fileID: 2100000, guid: d30a3870e42bdc64daaa4b4c194a27e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pen_plastic_white
+    second: {fileID: 2100000, guid: 8e9a29b3e7df1ce43adceb59b8800dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pencil_graphite
+    second: {fileID: 2100000, guid: 2c479c7a00496b44881bacb33faf46ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pencil_wood
+    second: {fileID: 2100000, guid: 38a3ba4e6c571f2409f405e4c473a35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pencil_wood_logo
+    second: {fileID: 2100000, guid: dca469f0276598044b000fadaaa12c7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_pencil_wood_white
+    second: {fileID: 2100000, guid: e45ae38c01905ff4882e41094b177d46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_sketchbook_cover
+    second: {fileID: 2100000, guid: d3f156e59107a1144b888bb3133315cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_sketchbook_cover_logo
+    second: {fileID: 2100000, guid: e3e4894f2e2a9e742b11c6862fb9548a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_sketchbook_elastic_band
+    second: {fileID: 2100000, guid: 8687d77f7be99bb4d99712d794151e79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: as_sketchbook_pages
+    second: {fileID: 2100000, guid: 6fe2b18056f2410429eb624b10f1c046, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
